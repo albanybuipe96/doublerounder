@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'doublerounder_Example' do
+  pod 'doublerounder', :path => '../'
+
+  target 'doublerounder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
